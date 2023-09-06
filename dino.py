@@ -498,5 +498,5 @@ def main():
     isGameQuit = introduction_screen()
     if not isGameQuit:
         gameplay()
- "agoo Inc"
+ "agoo Inc 2023"
 main()
