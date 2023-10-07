@@ -222,7 +222,6 @@ class birds(pygame.sprite.Sprite):
         if self.rect.right < 0:
             self.kill()
 
-
 class Ground():
     def __init__(self,speed=-5):
         self.image,self.rect = load_image('ground.png',-1,-1,-1)
