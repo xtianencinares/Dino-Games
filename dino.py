@@ -363,7 +363,7 @@ def gameplay():
     ado_image.blit(t_images[11],t_rect)
     ado_rect.top = height_screen * 0.1
     ado_rect.left = width_screen * 0.73
-
+ 
     while not g_exit:
         while s_Menu:
             pass
