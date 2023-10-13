@@ -315,7 +315,7 @@ def introduction_screen():
                         ado_dino.blinking = False
                         ado_dino.movement[1] = -1*ado_dino.jumpSpeed
 
-        ado_dino.update()
+        ado_dino.update() 
 
         if pygame.display.get_surface() != None:
             screen_layout_display.fill(bg_color)
