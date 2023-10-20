@@ -96,7 +96,7 @@ def gameover_display_message(rbtn_image, gmo_image):
     screen_layout_display.blit(rbtn_image, rbtn_rect)
     screen_layout_display.blit(gmo_image, gmo_rect)
 
-def extractDigits(num):
+def extractDigits(num): 
     if num > -1:
         d = []
         i = 0
