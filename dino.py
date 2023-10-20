@@ -61,7 +61,7 @@ def load_sprite_sheet(
     sprites = []
 
     sx = sh_rect.width/ namex
-    sy = sh_rect.height/ namey
+    sy = sh_rect.height/ namey 
 
     for i in range(0, namey):
         for j in range(0, namex):
