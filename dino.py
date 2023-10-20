@@ -284,7 +284,7 @@ class Scoreboard():
         score_digits = extractDigits(score)
         self.image.fill(bg_color)
         for s in score_digits:
-            self.image.blit(self.scre_img[s], self.screrect)
+            self.image.blit(self.scre_img[s], self.screrect) 
             self.screrect.left += self.screrect.width
         self.screrect.left = 0
 
