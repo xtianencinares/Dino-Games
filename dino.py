@@ -2,7 +2,7 @@ import os
 import sys
 import pygame
 import random
-from pygame import *
+from pygame import * 
 
 pygame.init()
 
