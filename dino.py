@@ -42,7 +42,7 @@ def load_image(
     if sx != -1 or sy != -1:
         img = pygame.transform.scale(img, (sx, sy))
 
-    return (img, img.get_rect())
+    return (img, img.get_rect()) 
 
 def load_sprite_sheet(
         s_name,
