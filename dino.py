@@ -47,7 +47,7 @@ def load_image(
 def load_sprite_sheet(
         s_name,
         namex,
-        namey,
+        namey, 
         scx = -1,
         scy = -1,
         c_key = None,
