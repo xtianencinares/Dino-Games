@@ -268,7 +268,7 @@ class Scoreboard():
         self.scre_img, self.screrect = load_sprite_sheet('numbers.png', 12, 1, 11, int(11 * 6 / 5), -1)
         self.image = pygame.Surface((55,int(11*6/5)))
         self.rect = self.image.get_rect()
-        if x == -1:
+        if x == -1: 
             self.rect.left = width_screen * 0.89
         else:
             self.rect.left = x
