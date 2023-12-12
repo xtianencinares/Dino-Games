@@ -52,7 +52,7 @@ def load_sprite_sheet(
         scy = -1,
         c_key = None,
         ):
-    fullname = os.path.join('resources', s_name)
+    fullname = os.path.join('resources', s_name) 
     sh = pygame.image.load(fullname)
     sh = sh.convert()
 
