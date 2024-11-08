@@ -499,4 +499,4 @@ def main():
  "agoo Inc 2023"
 main()
 
-#Agoo Inc v1.10
+#Agoo Inc v2 Beta
