@@ -492,7 +492,7 @@ def gameplay():
     pygame.quit()
     quit()
 
-def main():
+def main(): 
     isGameQuit = introduction_screen()
     if not isGameQuit:
         gameplay()
